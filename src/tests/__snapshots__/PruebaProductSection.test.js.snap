@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <ProductSection/> Debe de mostrar <ProductSection/> correctamente 1`] = `
+<div
+  className="product-container"
+>
+  <div
+    className="product-image"
+  >
+    <img
+      alt=""
+      src="http://http2.mlstatic.com/D_840425-MCO46714060635_072021-O.jpg"
+    />
+  </div>
+  <div
+    className="product-description"
+  >
+    <h2>
+      Camibuso Cuello Redondo T-shirt Colores Manga Larga
+    </h2>
+    <p>
+      Camibuso Cuello Redondo T-shirt Colores Manga Larga
+    </p>
+    <h3>
+      $ 20000 COP
+    </h3>
+    <br />
+    <h4>
+      Quantity
+    </h4>
+    <form
+      action=""
+    >
+      <input
+        defaultValue={1}
+        type="number"
+      />
+      <input
+        type="submit"
+        value="Add To Cart"
+      />
+    </form>
+  </div>
+</div>
+`;

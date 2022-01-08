@@ -1,0 +1,27 @@
+:root {
+    --dark_background: #000;
+    --light_background: #ffffff;
+    --grey_background: #cccccc;
+    --hover_background: rgb(233, 233, 233);
+    --color_background: bisque;
+    --optional1_color: #fdb965;
+    --optional2_color: #222fdd;
+
+    --main_font_color: #000;
+    --light_font_color: #fff;
+    --main_font: 'Lato', sans-serif;
+    --optional1_font: 'Rubik Mono One', sans-serif;
+    --optional2_font: 'Dancing Script', cursive;
+    --border_color:#afaeae;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--main_font_color);
+    font-family: var(--main_font);
+}

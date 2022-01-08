@@ -1,0 +1,15 @@
+.hamburger_menu{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+}
+
+.hamburger{
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: var(--dark_background);
+}

@@ -1,0 +1,27 @@
+.most_searched-container{
+    width: 100%;
+    height: auto;
+}
+
+.most_searched-container h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ .most_searched-card-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px){
+    .most_searched-card-container{
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+}
